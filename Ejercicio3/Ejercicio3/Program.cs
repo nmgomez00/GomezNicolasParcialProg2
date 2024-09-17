@@ -17,10 +17,16 @@ namespace Gimnasio
             MiembroList.Add(Miembro1);
             MiembroList.Add(Miembro2);
             MiembroList.Add(Miembro3);
+            Miembro Miembro4 = new Miembro("Marce", 123);
+            Miembro Miembro5 = new Miembro("Ma", 123);
+
 
 
             Clase Clase = new Clase("Cross fit", 100, 4, Instructor);
             Clase.AgregarMiembro(MiembroList);
+
+
+
 
 
             Clase.MostrarDetalles();
